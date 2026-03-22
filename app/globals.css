@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #f4f7ff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #000000;
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), "Segoe UI", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.page-shell {
+  position: relative;
+  overflow-x: clip;
+}
+
+.aura-bg {
+  display: none;
+}
+
+.text-gradient {
+  color: #ff004c;
+}
+
+.panel {
+  border: 1px solid #27272a;
+  background: #000000;
+  box-shadow: none;
+}
+
+.section-title {
+  font-size: clamp(1.8rem, 2.6vw, 2.6rem);
+  line-height: 1.1;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #f8fafc;
+}
+
+.reveal-up {
+  animation: reveal-up 0.75s ease-out both;
+}
+
+.click-bounce {
+  transition: transform 0.14s ease;
+  will-change: transform;
+}
+
+.click-bounce:active {
+  transform: scale(0.97);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body {
+    scroll-behavior: auto;
+  }
+
+  .click-bounce {
+    transition: none;
+  }
+
+  .click-bounce:active {
+    transform: none;
+  }
+}
+
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
