@@ -38,7 +38,7 @@ function styleGraphSvg(svg: string) {
 
     const hasStyle = /style="[^"]*"/.test(attrs);
     const updatedAttrs = hasStyle
-      ? attrs.replace(/style="([^"]*)"/, (m, styleContent: string) => {
+      ? attrs.replace(/style="([^"]*)"/, (_m: string, styleContent: string) => {
           const nextStyle = styleContent.replace(/fill:[^;"]+;?/g, "").trim();
           const withSemicolon =
             nextStyle.length > 0 && !nextStyle.endsWith(";")
