@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio Template - Dark Mode",
-  description: "A premium dark-mode portfolio template landing page.",
+  title: "TimeTicks - Programmer & Game Developer",
+  description: "TimeTicks portfolio.",
 };
 
 export default function RootLayout({

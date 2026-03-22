@@ -5,7 +5,7 @@ import SectionNav from "./section-nav";
 const projects = [
   {
     title: "Brainrot Tanks",
-    text: "A Diep.io-style game where you shoot fruits to gain XP and evolve into stronger brainrots with different weapons. Programmer alongside another developer.",
+    text: "A Diep.io-style game where you shoot fruits to gain XP and evolve into stronger brainrots with different weapons. Programmer alongside a team.",
     url: "https://www.roblox.com/games/103504785289949/Brainrot-Tanks",
     icon: "/brainrot-tanks.webp",
   },
@@ -40,8 +40,6 @@ export default function Home() {
             18-year-old developer with 7 years of programming experience and 5 years specializing in Roblox. Started with personal projects and collaborations, building games like Build a Bike with my brother. Mostly working as a solo programmer, I'm now transitioning into the professional scene with Future Trash (FOAD), creating engaging games and systems with a talented team.
           </p>
         </div>
-
-
       </section>
 
       <section id="skills" className="mx-auto w-full max-w-6xl px-20 py-16 md:px-32">
@@ -77,7 +75,7 @@ export default function Home() {
               Game Development
             </h3>
             <p className="mt-2 text-sm leading-6 text-zinc-300">
-              Design robust game systems and networking architecture for immersive multiplayer experiences.
+              Designing robust game systems and networking for multiplayer experiences.
             </p>
           </article>
           <article className="panel rounded-2xl p-6">
@@ -88,7 +86,7 @@ export default function Home() {
               Scripting Expertise
             </h3>
             <p className="mt-2 text-sm leading-6 text-zinc-300">
-              Write clean, maintainable, and modular code designed for scalability and team collaboration.
+              Writing clean, maintainable, and modular code designed for scalability and team collaboration.
             </p>
           </article>
         </div>
@@ -133,11 +131,11 @@ export default function Home() {
             570+ in the last year
           </p>
           <p className="mt-3 text-sm leading-6 text-zinc-300">
-            Consistent open-source work, daily commits, and active repository
+            Consistent work, daily commits, and active repository
             maintenance.
           </p>
           <p className="mt-1 text-xs text-zinc-400">
-            Heatmap below shows your GitHub contribution activity.
+            Heatmap below shows live GitHub contribution activity.
           </p>
 
           <a
