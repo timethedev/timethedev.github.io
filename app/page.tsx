@@ -128,7 +128,7 @@ export default function Home() {
             Contributions
           </p>
           <p className="mt-2 text-3xl font-black text-zinc-100 md:text-4xl">
-            570+ in the last year
+            640+ in the last year
           </p>
           <p className="mt-3 text-sm leading-6 text-zinc-300">
             Consistent work, daily commits, and active repository
